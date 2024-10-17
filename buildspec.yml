@@ -10,7 +10,7 @@ phases:
       - npm install
   pre_build:
     commands:
-      - npm test
+      - npm test --verbose
      
   build:
     commands:
